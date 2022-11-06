@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 0, 18);
+}
+
+#top{
+    background-color: rgb(230, 0, 18);
+    position: relative;
+    height: 100px;
+}
+
+#left{
+    display: inline-block;
+    background-color: rgb(230, 0, 18);
+    width: 5%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.logo_du_haut{
+    display: inline-block;
+    width: 15%;
+    margin: 1%;
+}
+
+.logo_nintendo{
+    width: 20%;
+    margin: 1%;
+}
+
+#logo{
+    width: 40%;
+    position: absolute;
+    right: 10%;
+    top: 3px;
+    text-align: center;
+
+}
+
+.logo_de_gauche{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.logo_de_gauche img{
+    width: 5rem;height: auto;
+}
+
+#affiche_jeux img{
+   width: 60%;
+   margin-left: 20%;
+    position: relative;
+    bottom: 70rem;
+}
+
+
+
